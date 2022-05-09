@@ -1,7 +1,7 @@
 body, css {
   margin: 0;
   padding: 0;
-  background-color: aliceblue;
+  background-color: rgb(250, 119, 239);
   text-align: center;
 }
 
@@ -15,8 +15,10 @@ section {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
+  background:radial-gradient(rgb(240, 35, 35),rgb(180, 139, 207));
 }
 
 #movieDetails {
   display: block;
 }
+ 
